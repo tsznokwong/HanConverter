@@ -8,7 +8,6 @@ def standardize(text):
 
 class SimplifiedHanChar:
 
-    PhraseConstraint = {}
     def __init__(self, char):
         self.char = char
     
@@ -17,9 +16,6 @@ class SimplifiedHanChar:
 
     def setTraditionalCharacters(self, chars):
         self.traditionalCharacters = chars
-
-    def addPhraseConstraint(self, string, output):
-        self.PhraseConstraint[string] = output
 
 # SimplifiedHanChar Char Class END
 
